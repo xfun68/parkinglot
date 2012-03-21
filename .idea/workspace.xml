@@ -78,20 +78,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParkingFacility.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ParkingFacility.java">
+      <file leaf-file-name="DoorMan.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DoorMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+            <state line="36" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoorMan.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DoorMan.java">
+      <file leaf-file-name="ReportTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/ReportTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="379" selection-end="379" vertical-scroll-proportion="0.6929134">
-              <folding />
+            <state line="10" column="57" selection-start="316" selection-end="316" vertical-scroll-proportion="0.33502537">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +112,7 @@
       <file leaf-file-name="ParkingLot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+            <state line="38" column="52" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,10 +174,11 @@
         <option value="$PROJECT_DIR$/test/SmartDoorManTest.java" />
         <option value="$PROJECT_DIR$/test/SmarterDoorManTest.java" />
         <option value="$PROJECT_DIR$/test/DoorManMangerTest.java" />
-        <option value="$PROJECT_DIR$/src/ParkingLot.java" />
         <option value="$PROJECT_DIR$/src/SuperParkingRule.java" />
         <option value="$PROJECT_DIR$/src/DoorManManger.java" />
         <option value="$PROJECT_DIR$/src/DoorMan.java" />
+        <option value="$PROJECT_DIR$/src/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/test/ReportTest.java" />
       </list>
     </option>
   </component>
@@ -282,6 +285,28 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="JUnit.All in Parkinglots">
+    <configuration default="false" name="ReportTest.should_return_correct_give_parkingLot" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="Parkinglots" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReportTest" />
+      <option name="METHOD_NAME" value="should_return_correct_give_parkingLot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -422,8 +447,9 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in Parkinglots" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReportTest.should_return_correct_give_parkingLot" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -520,13 +546,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/SmartDoorManTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/SmarterDoorManTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -601,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/DoorManTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="54" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
@@ -633,8 +645,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoorMan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="379" selection-end="379" vertical-scroll-proportion="0.6929134">
+        <state line="36" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="52" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ReportTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="57" selection-start="316" selection-end="316" vertical-scroll-proportion="0.33502537">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

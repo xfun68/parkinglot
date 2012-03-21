@@ -34,4 +34,8 @@ public class ParkingLot implements ParkingFacility {
     public double emptyRate() {
         return (double) availableSize() / capacity;
     }
+
+    public String report() {
+        return "ParkingLot: " + this.availableSize() + "/" + this.capacity;
+    }
 }
