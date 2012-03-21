@@ -58,59 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DoorManTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/DoorManTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JUnit4Builder.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/builders/JUnit4Builder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="-5.04">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParkingLotTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ParkingLotTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmartDoorManTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SmartDoorManTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmarterDoorManTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SmarterDoorManTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DoorManMangerTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/DoorManMangerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+            <state line="12" column="42" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,7 +72,16 @@
       <file leaf-file-name="DoorManManger.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DoorManManger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="57" selection-start="207" selection-end="225" vertical-scroll-proportion="0.0">
+            <state line="8" column="36" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingFacility.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingFacility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="12" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,8 +90,19 @@
       <file leaf-file-name="DoorMan.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DoorMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="41" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.61281335">
+            <state line="13" column="24" selection-start="379" selection-end="379" vertical-scroll-proportion="0.6929134">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoorManTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/DoorManTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="54" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,7 +110,34 @@
       <file leaf-file-name="ParkingLot.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParkingRule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ParkingRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NormalRule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NormalRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="29" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoreRule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MoreRule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,7 +146,7 @@
       <file leaf-file-name="SuperParkingRule.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SuperParkingRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="71" selection-start="113" selection-end="124" vertical-scroll-proportion="0.0">
+            <state line="2" column="10" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,6 +173,8 @@
         <option value="$PROJECT_DIR$/test/SmarterDoorManTest.java" />
         <option value="$PROJECT_DIR$/test/DoorManMangerTest.java" />
         <option value="$PROJECT_DIR$/src/ParkingLot.java" />
+        <option value="$PROJECT_DIR$/src/SuperParkingRule.java" />
+        <option value="$PROJECT_DIR$/src/DoorManManger.java" />
         <option value="$PROJECT_DIR$/src/DoorMan.java" />
       </list>
     </option>
@@ -520,22 +520,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/EmptyRateRuleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ParkingLotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/SmartDoorManTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
@@ -559,16 +543,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DoorManTest.java">
+    <entry file="file://$PROJECT_DIR$/src/LessRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+        <state line="2" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HighestRateRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingFacility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="12" selection-start="75" selection-end="75" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MoreRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/DoorManMangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
+        <state line="12" column="42" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -577,28 +589,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SuperParkingRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="71" selection-start="113" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="2" column="10" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParkingRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParkingLot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DoorManTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="54" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NormalRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoorManManger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="57" selection-start="207" selection-end="225" vertical-scroll-proportion="0.0">
+        <state line="8" column="36" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoorMan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="41" selection-start="1667" selection-end="1667" vertical-scroll-proportion="0.61281335">
+        <state line="13" column="24" selection-start="379" selection-end="379" vertical-scroll-proportion="0.6929134">
           <folding />
         </state>
       </provider>

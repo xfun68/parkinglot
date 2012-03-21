@@ -3,7 +3,7 @@ import java.util.List;
 
 public class DoorMan implements ParkingFacility {
     protected List<ParkingFacility> parking_facilities;
-    protected SuperParkingRule superRule;
+    protected SuperParkingRule parkingRule;
 
     public DoorMan(ParkingRule parkingRule) {
         this(new SuperRuleAdapter(parkingRule));
@@ -11,7 +11,7 @@ public class DoorMan implements ParkingFacility {
 
 
     public DoorMan(SuperParkingRule superRule) {
-        this.superRule = superRule;
+        this.parkingRule = superRule;
         this.parking_facilities = new ArrayList<ParkingFacility>();
     }
 
@@ -29,7 +29,7 @@ public class DoorMan implements ParkingFacility {
     }
 
     public Receipt park(Car car) {
-        ParkingLot suitableLots = superRule.getSuitableLots(parking_facilities);
+        ParkingLot suitableLots = parkingRule.getSuitableLots(parking_facilities);
         return suitableLots.park(car);
     }
 

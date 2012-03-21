@@ -5,8 +5,8 @@ public class DoorManManger extends DoorMan {
     }
 
     public Receipt park(Car car) {
-        for (ParkingFacility doorMan : parking_facilities) {
-            Receipt receipt = doorMan.park(car);
+        for (ParkingFacility facility : parking_facilities) {
+            Receipt receipt = facility.park(car);
             if(null != receipt) {
                 return receipt;
             }
