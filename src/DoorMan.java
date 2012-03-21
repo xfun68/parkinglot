@@ -15,6 +15,19 @@ public class DoorMan implements ParkingFacility {
         this.parking_facilities = new ArrayList<ParkingFacility>();
     }
 
+    @Override
+    public String report(int depth) {
+        String prefix = "";
+        for (int i = 0; i < depth; i++) {
+            prefix += "  ";
+        }
+        String reports = prefix + "DoorMan:\n";
+        for(ParkingLot parkinglot : getParkingLots(parking_facilities)) {
+            reports += parkinglot.report(depth + 1);
+        }
+        return reports;
+    }
+
 
     public static class SuperRuleAdapter implements SuperParkingRule {
         private ParkingRule rule;
