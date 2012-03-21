@@ -1,14 +1,10 @@
 import java.util.List;
 
 public class Report {
-    private final int depth;
+    private int depth;
 
     public Report() {
-        this(0);
-    }
-
-    private Report(int depth) {
-        this.depth = depth;
+        this.depth = 0;
     }
 
     public String reportParkingLot(int availableSize, int capacity) {
@@ -25,9 +21,11 @@ public class Report {
 
     public String reportManager(List<? extends ParkingFacility> parkingFacilities, String name) {
         String reports = indent() + name;
+        depth++;
         for (ParkingFacility facility : parkingFacilities) {
-            reports += facility.report(new Report(depth +1));
+            reports += facility.report(this);
         }
+        depth--;
         return reports;
     }
 }

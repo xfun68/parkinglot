@@ -10,7 +10,7 @@ public class DoorManMangerTest {
 
     @Before
     public void setUp() throws Exception {
-        doorManManger = new DoorManManger();
+        doorManManger = new DoorManManger(new NormalRule());
     }
 
     @Test

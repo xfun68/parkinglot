@@ -1,11 +1,7 @@
-import java.util.List;
+public class DoorManManger extends DoorMan {
 
-public class DoorManManger implements ParkingFacility {
-
-    protected List<ParkingFacility> parking_facilities;
-
-    public void manage(ParkingFacility parking_facilities) {
-        this.parking_facilities.add(parking_facilities);
+    public DoorManManger(ParkingRule parkingRule) {
+        super(parkingRule);
     }
 
     public Receipt park(Car car) {
@@ -14,15 +10,6 @@ public class DoorManManger implements ParkingFacility {
             if(null != receipt) {
                 return receipt;
             }
-        }
-        return null;
-    }
-
-    public Car fetchCar(Receipt receipt) {
-        for (ParkingFacility lot : parking_facilities) {
-            Car car = lot.fetchCar(receipt);
-            if (car != null)
-                return car;
         }
         return null;
     }
