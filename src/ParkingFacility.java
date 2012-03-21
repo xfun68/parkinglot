@@ -3,5 +3,5 @@ public interface ParkingFacility {
 
     Car fetchCar(Receipt receipt);
 
-    String report(int depth);
+    String report(Report report);
 }

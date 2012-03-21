@@ -16,16 +16,8 @@ public class DoorMan implements ParkingFacility {
     }
 
     @Override
-    public String report(int depth) {
-        String prefix = "";
-        for (int i = 0; i < depth; i++) {
-            prefix += "  ";
-        }
-        String reports = prefix + "DoorMan:\n";
-        for(ParkingLot parkinglot : getParkingLots(parking_facilities)) {
-            reports += parkinglot.report(depth + 1);
-        }
-        return reports;
+    public String report(Report report) {
+        return report.reportManager(getParkingLots(parking_facilities), "DoorMan:\n");
     }
 
 

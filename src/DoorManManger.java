@@ -1,7 +1,11 @@
-public class DoorManManger extends DoorMan {
+import java.util.List;
 
-    public DoorManManger(ParkingRule parkingRule) {
-        super(parkingRule);
+public class DoorManManger implements ParkingFacility {
+
+    protected List<ParkingFacility> parking_facilities;
+
+    public void manage(ParkingFacility parking_facilities) {
+        this.parking_facilities.add(parking_facilities);
     }
 
     public Receipt park(Car car) {
@@ -14,19 +18,17 @@ public class DoorManManger extends DoorMan {
         return null;
     }
 
-    @Override
-    public String report(int depth) {
-        String prefix = "";
-        for (int i = 0; i < depth; i++) {
-            prefix += "  ";
+    public Car fetchCar(Receipt receipt) {
+        for (ParkingFacility lot : parking_facilities) {
+            Car car = lot.fetchCar(receipt);
+            if (car != null)
+                return car;
         }
-        String reports = prefix + "Manager:\n";
-        for(ParkingFacility facility : parking_facilities) {
-            String sub_reports = facility.report(depth + 1);
-            sub_reports.replace("  ", "    ");
-            reports += sub_reports;
-        }
-        return reports;
+        return null;
+    }
+
+    public String report(Report report) {
+        return report.reportManager(parking_facilities, "Manager:\n");
     }
 
 }
